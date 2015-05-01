@@ -21,6 +21,7 @@
 * I2C interface (SDA, SCL) pads
 * 3.3v pad
 * RESET pad (for SPI programming)
+
 <img src="http://i.imgur.com/7CtICCr.png" style="border-width: 0"/>
 
 
