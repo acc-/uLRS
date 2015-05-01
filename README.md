@@ -11,11 +11,13 @@
 * PCB pads for 3.3v UART interface (RX, TX, DTR, GND)
 * analog RSSI output pad
 * U.FL antenna connector
+* RFM22b 100mW radio module
 * LFCN-490 low pass filter
-* LC filter for RFM22b power supply
+* LC filter for radio power supply
 
 ## v1 board (prototype)
-μLRS v1 is a first prototype board having additionally:
+μLRS v1 is a first prototype board:
+* PCB dimensions: 20x18mm
 * I2C interface (SDA, SCL) pads
 * 3.3v pad
 * RESET pad (for SPI programming)
