@@ -7,13 +7,15 @@
 
 ## General
 μLRS boards are hardware compatible with OpenLRSng firmware for HW 8 (micro RX). Common features for μLRS boards are:
-* input voltage 4-16V
-* PCB pads for 3.3v UART interface (RX, TX, DTR, GND)
+* input voltage 4-16V (max 3S lipo, 4S is too much voltage)
+* PCB pads for 3.3v UART interface (RX, TX, DTR, GND) - do **NOT** try to use it with 5v uart interface
 * analog RSSI output pad
 * U.FL antenna connector
 * RFM22b 100mW radio module
-* LFCN-490 low pass filter
+* LFCN-490 low pass filter (can be easily removed by replacing it with 1206 0R resistor)
 * LC filter for radio power supply
+* Atmega328P-MU microcontroller (QFN case)
+* 0603 sized components - can be soldered at home (only atmega chip requires strong soldering skills)
 
 ## v1 board (prototype)
 μLRS v1 is a first prototype board:
@@ -21,6 +23,9 @@
 * I2C interface (SDA, SCL) pads
 * 3.3v pad
 * RESET pad (for SPI programming)
+* big 47uF tantalum capacitor for input voltage filtering
+* two 10uF tantalum capacitors (one for 3.3v filtering, another one for RSSI analog output)
+* can be used also as a **transmitter**
 
 <img src="http://i.imgur.com/7CtICCr.png" style="border-width: 0"/>
 
