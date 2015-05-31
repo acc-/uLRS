@@ -26,6 +26,7 @@
 * big 47uF tantalum capacitor for input voltage filtering
 * two 10uF tantalum capacitors (one for 3.3v filtering, another one for RSSI analog output)
 * can be used also as a **transmitter**
+* PCBs can be ordered here: https://oshpark.com/shared_projects/nFa7UehY
 
 <img src="http://i.imgur.com/7CtICCr.png" style="border-width: 0"/>
 
